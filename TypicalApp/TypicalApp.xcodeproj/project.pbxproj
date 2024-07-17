@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5271E43C2C47AD550054FBBF /* NavigationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5271E4202C47AD540054FBBF /* NavigationState.swift */; };
+		5271E43D2C47AD550054FBBF /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5271E4222C47AD540054FBBF /* AuthViewModel.swift */; };
+		5271E43E2C47AD550054FBBF /* KeychainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5271E4242C47AD540054FBBF /* KeychainHelper.swift */; };
+		5271E43F2C47AD550054FBBF /* Password.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5271E4252C47AD540054FBBF /* Password.swift */; };
+		5271E4402C47AD550054FBBF /* PasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5271E4272C47AD540054FBBF /* PasswordTextField.swift */; };
+		5271E4412C47AD550054FBBF /* ServerResponsesM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5271E4292C47AD540054FBBF /* ServerResponsesM.swift */; };
+		5271E4422C47AD550054FBBF /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5271E42B2C47AD540054FBBF /* HTTPMethod.swift */; };
+		5271E4432C47AD550054FBBF /* jwtH.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5271E42C2C47AD540054FBBF /* jwtH.swift */; };
+		5271E4442C47AD550054FBBF /* ErrorState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5271E42E2C47AD540054FBBF /* ErrorState.swift */; };
+		5271E4452C47AD550054FBBF /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5271E42F2C47AD540054FBBF /* ErrorView.swift */; };
+		5271E4462C47AD550054FBBF /* UIApplicationExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5271E4312C47AD550054FBBF /* UIApplicationExt.swift */; };
+		5271E4472C47AD550054FBBF /* ViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5271E4322C47AD550054FBBF /* ViewExt.swift */; };
+		5271E4482C47AD550054FBBF /* DropS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5271E4342C47AD550054FBBF /* DropS.swift */; };
+		5271E4492C47AD550054FBBF /* MainAuthS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5271E4352C47AD550054FBBF /* MainAuthS.swift */; };
+		5271E44A2C47AD550054FBBF /* MainS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5271E4362C47AD550054FBBF /* MainS.swift */; };
+		5271E44B2C47AD550054FBBF /* ResetS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5271E4372C47AD550054FBBF /* ResetS.swift */; };
+		5271E44C2C47AD550054FBBF /* SignInS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5271E4382C47AD550054FBBF /* SignInS.swift */; };
+		5271E44D2C47AD550054FBBF /* SignUpS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5271E4392C47AD550054FBBF /* SignUpS.swift */; };
+		5271E44E2C47AD550054FBBF /* StartS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5271E43A2C47AD550054FBBF /* StartS.swift */; };
 		52B8D57E2C454F6C002EBB58 /* TypicalAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B8D57D2C454F6C002EBB58 /* TypicalAppApp.swift */; };
 		52B8D5802C454F6C002EBB58 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B8D57F2C454F6C002EBB58 /* ContentView.swift */; };
 		52B8D5822C454F72002EBB58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52B8D5812C454F72002EBB58 /* Assets.xcassets */; };
@@ -28,6 +47,25 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5271E4202C47AD540054FBBF /* NavigationState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationState.swift; sourceTree = "<group>"; };
+		5271E4222C47AD540054FBBF /* AuthViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		5271E4242C47AD540054FBBF /* KeychainHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainHelper.swift; sourceTree = "<group>"; };
+		5271E4252C47AD540054FBBF /* Password.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Password.swift; sourceTree = "<group>"; };
+		5271E4272C47AD540054FBBF /* PasswordTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordTextField.swift; sourceTree = "<group>"; };
+		5271E4292C47AD540054FBBF /* ServerResponsesM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerResponsesM.swift; sourceTree = "<group>"; };
+		5271E42B2C47AD540054FBBF /* HTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		5271E42C2C47AD540054FBBF /* jwtH.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = jwtH.swift; sourceTree = "<group>"; };
+		5271E42E2C47AD540054FBBF /* ErrorState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorState.swift; sourceTree = "<group>"; };
+		5271E42F2C47AD540054FBBF /* ErrorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		5271E4312C47AD550054FBBF /* UIApplicationExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIApplicationExt.swift; sourceTree = "<group>"; };
+		5271E4322C47AD550054FBBF /* ViewExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewExt.swift; sourceTree = "<group>"; };
+		5271E4342C47AD550054FBBF /* DropS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropS.swift; sourceTree = "<group>"; };
+		5271E4352C47AD550054FBBF /* MainAuthS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainAuthS.swift; sourceTree = "<group>"; };
+		5271E4362C47AD550054FBBF /* MainS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainS.swift; sourceTree = "<group>"; };
+		5271E4372C47AD550054FBBF /* ResetS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetS.swift; sourceTree = "<group>"; };
+		5271E4382C47AD550054FBBF /* SignInS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInS.swift; sourceTree = "<group>"; };
+		5271E4392C47AD550054FBBF /* SignUpS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpS.swift; sourceTree = "<group>"; };
+		5271E43A2C47AD550054FBBF /* StartS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartS.swift; sourceTree = "<group>"; };
 		52B8D57A2C454F6C002EBB58 /* TypicalApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TypicalApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52B8D57D2C454F6C002EBB58 /* TypicalAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypicalAppApp.swift; sourceTree = "<group>"; };
 		52B8D57F2C454F6C002EBB58 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,6 +98,88 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5271E4212C47AD540054FBBF /* enums */ = {
+			isa = PBXGroup;
+			children = (
+				5271E4202C47AD540054FBBF /* NavigationState.swift */,
+			);
+			path = enums;
+			sourceTree = "<group>";
+		};
+		5271E4232C47AD540054FBBF /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				5271E4222C47AD540054FBBF /* AuthViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		5271E4262C47AD540054FBBF /* Keychain */ = {
+			isa = PBXGroup;
+			children = (
+				5271E4242C47AD540054FBBF /* KeychainHelper.swift */,
+				5271E4252C47AD540054FBBF /* Password.swift */,
+			);
+			path = Keychain;
+			sourceTree = "<group>";
+		};
+		5271E4282C47AD540054FBBF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5271E4272C47AD540054FBBF /* PasswordTextField.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5271E42A2C47AD540054FBBF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5271E4292C47AD540054FBBF /* ServerResponsesM.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5271E42D2C47AD540054FBBF /* HTTP */ = {
+			isa = PBXGroup;
+			children = (
+				5271E42B2C47AD540054FBBF /* HTTPMethod.swift */,
+				5271E42C2C47AD540054FBBF /* jwtH.swift */,
+			);
+			path = HTTP;
+			sourceTree = "<group>";
+		};
+		5271E4302C47AD540054FBBF /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				5271E42E2C47AD540054FBBF /* ErrorState.swift */,
+				5271E42F2C47AD540054FBBF /* ErrorView.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		5271E4332C47AD550054FBBF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5271E4312C47AD550054FBBF /* UIApplicationExt.swift */,
+				5271E4322C47AD550054FBBF /* ViewExt.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5271E43B2C47AD550054FBBF /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				5271E4342C47AD550054FBBF /* DropS.swift */,
+				5271E4352C47AD550054FBBF /* MainAuthS.swift */,
+				5271E4362C47AD550054FBBF /* MainS.swift */,
+				5271E4372C47AD550054FBBF /* ResetS.swift */,
+				5271E4382C47AD550054FBBF /* SignInS.swift */,
+				5271E4392C47AD550054FBBF /* SignUpS.swift */,
+				5271E43A2C47AD550054FBBF /* StartS.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
 		52B8D5712C454F6C002EBB58 = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +233,15 @@
 		52B8D5902C455077002EBB58 /* Auth */ = {
 			isa = PBXGroup;
 			children = (
+				5271E4212C47AD540054FBBF /* enums */,
+				5271E4302C47AD540054FBBF /* Error */,
+				5271E4332C47AD550054FBBF /* Extensions */,
+				5271E42D2C47AD540054FBBF /* HTTP */,
+				5271E4262C47AD540054FBBF /* Keychain */,
+				5271E42A2C47AD540054FBBF /* Models */,
+				5271E43B2C47AD550054FBBF /* Screens */,
+				5271E4232C47AD540054FBBF /* ViewModels */,
+				5271E4282C47AD540054FBBF /* Views */,
 				52B8D5912C455086002EBB58 /* LoginView.swift */,
 			);
 			path = Auth;
@@ -228,20 +357,39 @@
 			buildActionMask = 2147483647;
 			files = (
 				52B8D5AC2C455FAE002EBB58 /* AboutView.swift in Sources */,
+				5271E4462C47AD550054FBBF /* UIApplicationExt.swift in Sources */,
+				5271E44E2C47AD550054FBBF /* StartS.swift in Sources */,
 				52B8D5A92C455850002EBB58 /* SettingsView.swift in Sources */,
+				5271E4482C47AD550054FBBF /* DropS.swift in Sources */,
+				5271E4492C47AD550054FBBF /* MainAuthS.swift in Sources */,
+				5271E43C2C47AD550054FBBF /* NavigationState.swift in Sources */,
 				52B8D5972C45518B002EBB58 /* CardView.swift in Sources */,
 				52B8D58D2C454FCF002EBB58 /* OnboardingData.swift in Sources */,
+				5271E4472C47AD550054FBBF /* ViewExt.swift in Sources */,
 				52B8D59E2C4554EB002EBB58 /* ProfileView.swift in Sources */,
 				52B8D5A02C45553A002EBB58 /* EditProfileView.swift in Sources */,
 				52B8D5952C455167002EBB58 /* Card.swift in Sources */,
+				5271E4442C47AD550054FBBF /* ErrorState.swift in Sources */,
+				5271E4402C47AD550054FBBF /* PasswordTextField.swift in Sources */,
+				5271E43E2C47AD550054FBBF /* KeychainHelper.swift in Sources */,
+				5271E44A2C47AD550054FBBF /* MainS.swift in Sources */,
+				5271E4452C47AD550054FBBF /* ErrorView.swift in Sources */,
 				52B8D5992C4551FE002EBB58 /* MainContentView.swift in Sources */,
+				5271E44C2C47AD550054FBBF /* SignInS.swift in Sources */,
+				5271E4432C47AD550054FBBF /* jwtH.swift in Sources */,
+				5271E43F2C47AD550054FBBF /* Password.swift in Sources */,
 				52B8D58F2C454FE9002EBB58 /* OnboardingView.swift in Sources */,
 				52B8D5802C454F6C002EBB58 /* ContentView.swift in Sources */,
 				52B8D5A52C45565B002EBB58 /* Themes.swift in Sources */,
 				52B8D5922C455086002EBB58 /* LoginView.swift in Sources */,
+				5271E4422C47AD550054FBBF /* HTTPMethod.swift in Sources */,
+				5271E43D2C47AD550054FBBF /* AuthViewModel.swift in Sources */,
 				52B8D5A22C455581002EBB58 /* ImagePicker.swift in Sources */,
+				5271E4412C47AD550054FBBF /* ServerResponsesM.swift in Sources */,
 				52B8D57E2C454F6C002EBB58 /* TypicalAppApp.swift in Sources */,
+				5271E44B2C47AD550054FBBF /* ResetS.swift in Sources */,
 				52B8D59C2C4554C6002EBB58 /* UserProfile.swift in Sources */,
+				5271E44D2C47AD550054FBBF /* SignUpS.swift in Sources */,
 				52B8D5A72C455697002EBB58 /* ThemeManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
