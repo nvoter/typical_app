@@ -10,14 +10,12 @@ import SwiftUI
 
 @main
 struct TypicalAppApp: App {
-    @StateObject var themeManager = ThemeManager()
     var isOnboarded = true
     
     var body: some Scene {
         WindowGroup {
             if isOnboarded {
-                MainTabView()
-                    .environmentObject(themeManager)
+                StartS()
             } else {
                 ContentView()
             }
