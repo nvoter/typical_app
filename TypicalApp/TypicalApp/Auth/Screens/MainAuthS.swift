@@ -12,25 +12,14 @@ struct MainAuthS: View {
     var body: some View {
         NavigationView {
             VStack {
+                Text("используйте светлую тему")
+                    .foregroundStyle(.white)
                 signInButtonV()
-                resetPasswordButtonV()
                 signUpButtonV()
-                deleteUserAccountButtonV()
                 toMainViewButtonV()
             }
             .navigationTitle("Auth")
         }
-    }
-    
-    @ViewBuilder func resetPasswordButtonV() -> some View {
-        NavigationLink(destination: ResetS(errorState: $errorState)) {
-            Text("Reset password")
-        }
-        .font(.system(size: 25, weight: .bold))
-        .frame(width: 200, height: 30).padding()
-        .background(Color.black)
-        .foregroundColor(.white)
-        .cornerRadius(10)
     }
 
     @ViewBuilder func signUpButtonV() -> some View {
@@ -47,17 +36,6 @@ struct MainAuthS: View {
     @ViewBuilder func signInButtonV() -> some View {
         NavigationLink(destination: SigninS(errorState: $errorState)) {
             Text("Sign in")
-        }
-        .font(.system(size: 25, weight: .bold))
-        .frame(width: 200, height: 30).padding()
-        .background(Color.black)
-        .foregroundColor(.white)
-        .cornerRadius(10)
-    }
-    
-    @ViewBuilder func deleteUserAccountButtonV() -> some View {
-        NavigationLink(destination: DropS(errorState: $errorState)) {
-            Text("Delete account")
         }
         .font(.system(size: 25, weight: .bold))
         .frame(width: 200, height: 30).padding()

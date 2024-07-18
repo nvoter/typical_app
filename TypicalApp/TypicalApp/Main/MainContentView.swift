@@ -17,6 +17,9 @@ struct MainContentView: View {
     @State private var selectedTag: String = "All"
     @State private var searchText: String = ""
     
+    var tags: [String] {
+        Array(Set(cards.flatMap { $0.tags })).sorted()
+    }
     var filteredCards: [Card] {
         let filteredByTag = selectedTag == "All"
         ? cards
@@ -37,7 +40,7 @@ struct MainContentView: View {
             VStack {
                 Picker("Filter by Tag", selection: $selectedTag) {
                     Text("All").tag("All")
-                    ForEach(cards.flatMap { $0.tags }, id: \.self) { tag in
+                    ForEach(tags, id: \.self) { tag in
                         Text(tag).tag(tag)
                     }
                 }
@@ -55,6 +58,16 @@ struct MainContentView: View {
                             .onTapGesture {
                                 // Открытие подробного просмотра карточки
                             }
+                            .swipeActions(allowsFullSwipe: true) {
+                                Button {
+                                    withAnimation {
+                                        deleteCard(card.id)
+                                    }
+                                } label: {
+                                    Image(systemName: "trash")
+                                }
+                            }
+                            .tint(.red)
                     }
                 }
             }
@@ -70,12 +83,17 @@ struct MainContentView: View {
         }
     }
     
-    func deleteCard(at offsets: IndexSet) {
-        cards.remove(atOffsets: offsets)
+    func deleteCard(_ id: UUID) {
+        if let ind = cards.firstIndex(where: {
+            $0.id == id
+        }) {
+            cards.remove(at: ind)
+        }
     }
 }
 
 struct AddCardView: View {
+    @Environment(\.dismiss) private var dismiss
     @Binding var cards: [Card]
     @State private var title: String = ""
     @State private var description: String = ""
@@ -91,18 +109,23 @@ struct AddCardView: View {
                 }
                 
                 Button("Add Card") {
-                    let tagList = tags.split(separator: ",").map {
+                    var tagList = tags.split(separator: ",").map {
                         String($0).trimmingCharacters (in: .whitespaces)
+                    }.filter {
+                        $0 != "All"
                     }
                     
                     let newCard = Card(title: title, description: description, tags: tagList)
                     cards.append(newCard)
+                    title = ""
+                    description = ""
+                    tags = ""
                 }
                 
             }
             .navigationBarTitle("Add Card")
             .navigationBarItems (trailing: Button("Done") {
-                // Закрытие модального окна
+                dismiss()
             })
         }
     }
